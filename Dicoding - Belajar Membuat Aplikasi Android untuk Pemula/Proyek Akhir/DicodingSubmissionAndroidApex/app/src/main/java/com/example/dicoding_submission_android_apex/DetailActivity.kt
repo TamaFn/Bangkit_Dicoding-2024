@@ -27,6 +27,7 @@ class DetailActivity : AppCompatActivity() {
         val actionbar = supportActionBar
         actionbar!!.title = "Detail Information"
 
+
         val tvCharName: TextView = findViewById(R.id.char_name)
         val tvCharGender: TextView = findViewById(R.id.char_gender)
         val tvCharAge: TextView = findViewById(R.id.char_age)
@@ -43,6 +44,7 @@ class DetailActivity : AppCompatActivity() {
         val imgCharIconTactical: ImageView = findViewById(R.id.icon_tactical)
         val imgCharIconPassive: ImageView = findViewById(R.id.icon_passive)
         val imgCharIconUltimate: ImageView = findViewById(R.id.icon_ultimate)
+        val imgCharIconClass: ImageView = findViewById(R.id.char_icon_class)
 
         val charName = intent.getStringExtra(EXTRA_NAME)
         val charGender = intent.getStringExtra(EXTRA_GENDER)
@@ -60,6 +62,7 @@ class DetailActivity : AppCompatActivity() {
         val charIconTactical = intent.getIntExtra(EXTRA_ICONTACTICAL, 0)
         val charIconPassive = intent.getIntExtra(EXTRA_ICONPASSIVE, 0)
         val charIconUltimate = intent.getIntExtra(EXTRA_ICONULTIMATE, 0)
+        val charIconClass = intent.getIntExtra(EXTRA_ICONCLASS, 0)
 
         tvCharName.text = charName
         tvCharGender.text = charGender
@@ -92,6 +95,10 @@ class DetailActivity : AppCompatActivity() {
             .load(charIconUltimate)
             .apply(RequestOptions())
             .into(imgCharIconUltimate)
+        Glide.with(this)
+            .load(charIconClass)
+            .apply(RequestOptions())
+            .into(imgCharIconClass)
 
     }
 
@@ -112,6 +119,7 @@ class DetailActivity : AppCompatActivity() {
         const val EXTRA_ICONTACTICAL = "extra_icontactical"
         const val EXTRA_ICONPASSIVE = "extra_iconpassive"
         const val EXTRA_ICONULTIMATE = "extra_iconultimate"
+        const val EXTRA_ICONCLASS = "extra_iconclass"
     }
 }
 

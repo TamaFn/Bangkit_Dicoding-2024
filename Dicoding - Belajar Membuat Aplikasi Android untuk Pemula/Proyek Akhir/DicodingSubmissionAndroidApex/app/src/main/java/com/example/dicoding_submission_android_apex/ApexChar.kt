@@ -21,4 +21,5 @@ data class ApexChar(
     var icontactical: Int? = 0,
     var iconpassive: Int? = 0,
     var iconultimate: Int? = 0,
+    var iconclass:Int? = 0
 ) : Parcelable

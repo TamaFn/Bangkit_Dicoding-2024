@@ -178,6 +178,20 @@ object ApexData {
         R.drawable.wattsonultimate
     )
 
+    private val apexIconClass = intArrayOf(
+        R.drawable.assault_class,
+        R.drawable.recon_class,
+        R.drawable.controller_class,
+        R.drawable.assault_class,
+        R.drawable.skirmisher_class,
+        R.drawable.skirmisher_class,
+        R.drawable.controller_class,
+        R.drawable.skirmisher_class,
+        R.drawable.controller_class
+    )
+
+
+
     val listData : ArrayList<ApexChar>
         get() {
             val list = arrayListOf<ApexChar>()
@@ -199,6 +213,7 @@ object ApexData {
                 data.icontactical = apexIconTactical[position]
                 data.iconpassive = apexIconPassive[position]
                 data.iconultimate = apexIconUltimate[position]
+                data.iconclass = apexIconClass[position]
                 list.add(data)
             }
             return list

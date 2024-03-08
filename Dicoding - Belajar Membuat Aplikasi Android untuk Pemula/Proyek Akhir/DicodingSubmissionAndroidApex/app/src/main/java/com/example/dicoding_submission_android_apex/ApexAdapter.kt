@@ -41,6 +41,7 @@ class ApexAdapter(private var listChar: ArrayList<ApexChar>): RecyclerView.Adapt
             passItem.putExtra(DetailActivity.EXTRA_ICONTACTICAL, apexCharc.icontactical)
             passItem.putExtra(DetailActivity.EXTRA_ICONPASSIVE, apexCharc.iconpassive)
             passItem.putExtra(DetailActivity.EXTRA_ICONULTIMATE, apexCharc.iconultimate)
+            passItem.putExtra(DetailActivity.EXTRA_ICONCLASS, apexCharc.iconclass)
 
             context.startActivity(passItem)
         }
