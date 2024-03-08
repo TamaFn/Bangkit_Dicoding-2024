@@ -15,7 +15,7 @@ Based on Dicoding Criteria, there are few rules to finish the project. So, this 
 
 
 ## Apex Legends Gameplay
-![Alt Text](/image/one.gif)
+![Alt Text](image/one.gif)
 
 ## Splash Screen 
 ![Alt Text](/image/splash.png)
