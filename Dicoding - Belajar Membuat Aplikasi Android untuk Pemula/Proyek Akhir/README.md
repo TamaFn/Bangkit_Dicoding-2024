@@ -18,7 +18,7 @@ Based on Dicoding Criteria, there are few rules to finish the project. So, this 
 ![Alt Text](image/one.gif)
 
 ## Splash Screen 
-![Alt Text](/image/splash.png)
+![Alt Text](image/splash.png)
 
 ## Main Screen 
 ![Alt Text](image/main.PNG)
