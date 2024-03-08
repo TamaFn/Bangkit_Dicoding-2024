@@ -15,25 +15,25 @@ Based on Dicoding Criteria, there are few rules to finish the project. So, this 
 
 
 ## Apex Legends Gameplay
-![Alt Text](image\one.gif)
+![Alt Text](/image/one.gif)
 
 ## Splash Screen 
-![Alt Text](image\splash.png)
+![Alt Text](/image/splash.png)
 
 ## Main Screen 
-![Alt Text](image\main.PNG)
+![Alt Text](image/main.PNG)
 
 ## Detail Screen 
-![Alt Text](image\detail.PNG)
-![Alt Text](image\detailtwo.PNG)
-![Alt Text](image\detailthird.PNG)
+![Alt Text](image/detail.PNG)
+![Alt Text](image/detailtwo.PNG)
+![Alt Text](image/detailthird.PNG)
 
 ## About Screen 
-![Alt Text](image\about.PNG)
+![Alt Text](image/about.PNG)
      
 ## Closing
 If you struggling to finish dicoding submission or just learning android project, feel free to clone my project to help you. 
-![Alt Text](image\giphy2.gif)
+![Alt Text](image/giphy2.gif)
 
 I also say a big thanks to https://github.com/BillyMRX1/Dicoding-Submission-Android-Pemula to help me understand better about android project. 
 
